@@ -1,0 +1,53 @@
+.btn {
+  text-decoration: none;
+  background-color: #ff9800;
+  color: #fff;
+  border: none;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 26px;
+  text-align: center;
+  letter-spacing: 1px;
+  padding: 10px 15px;
+  cursor: pointer;
+  transition: color 0.3s;
+  width: 180px;
+}
+.btn-outline {
+  background-color: rgba(0, 0, 0, 0);
+  border: #fff solid 3px;
+  padding-top: 8px;
+}
+.btn:hover {
+  background-color: #ffb000;
+}
+.btn-outline:hover {
+  background-color: rgba(0, 0, 0, 0);
+  color: #ff9800;
+  border-color: #d4d2ce;
+}
+
+.container {
+  max-width: 1100px;
+  margin: 0 auto;
+  overflow: auto;
+  height: 100%;
+}
+.txt-title {
+  font-size: 36px;
+  color: #2b2a4c;
+  font-weight: 400;
+  margin: 20px 0 10px 0;
+}
+.sub-title {
+  font-size: 24px;
+  color: #2b2a4c;
+  font-weight: 700;
+  margin: 20px 0 10px 0;
+}
+.txt-primary {
+  font-size: 16px;
+  line-height: 26px;
+  font-weight: 4oo;
+  margin-bottom: 10px;
+}
